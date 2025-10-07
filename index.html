@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1>Mi diccionario</h1>
+        </div>
+        <div class="gcse-search"></div>
+        <button class="login-button" onclick="changeText(this)">Iniciar sesión</button>
+    </header>
+    <main>
+        <div class="card_column">
+
+            <div class="card">
+                <div class="description">
+                    <h2>software</h2>
+                    <h5>sustantivo común</h5>
+                    <h4>Plural: softwares</h4>
+                    <button id="like_button1" class="like"><p id="contador">0 likes</p></button>
+                </div>
+                <div class="definition">
+                    <p>Conjunto de programas, instrucciones y datos que permiten que una computadora o dispositivo funcione.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="description">
+                    <h2>digital</h2>
+                    <h5>adjetivo</h5>
+                    <h4>Plural: digitales</h4>
+                    <button id="like_button2" class="like"><p id="contador2">0 likes</p></button>
+                </div>
+                <div class="definition">
+                    <p>Relativo a sistemas que usan dígitos o señales discretas, especialmente en tecnología informática y electrónica.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="caja2">
+            <div class="div2">
+                <h3>¿Quieres añadir más vocabulario?</h3>
+                <button class="add_word" onclick="hide(this)">Añadir definición</button>           
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>&copy;2025 Axel Medina - Toda la nota reservada</h2>
+    </footer>
+    <script src="./script.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=063caa4ea3ece4770"></script>
+
+</body>
+</html>
